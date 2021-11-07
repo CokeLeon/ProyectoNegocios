@@ -1,0 +1,187 @@
+body {
+    background-color: #1d2124 ; 
+}
+h1 {
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;   
+}
+header { padding: 20px 0 0 0;
+    background: #1d2124;
+    text-align: center;
+} 
+
+@media (min-width : 750px){
+    header {
+        text-align: left;
+    }         
+}
+.borrar-placa {
+    background: #02523a;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url(https://www.teleflex.com/la/product-areas/cardiac-care/operating-room/OR_banner1.jpg);
+    height: 551px;
+}
+
+.encabezado {
+    margin: 30px 0;
+    color: black;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background: #17181b;
+    padding: 20%;
+}
+
+.vacio {
+    padding: 10%;
+    background: #02523a;
+    text-align: center;
+    border-radius: 10%;
+    color: #02523a;
+}
+
+.button {
+    background-color: #02523a;
+    color: #02523a;
+}
+
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}   
+
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.barra {
+    padding: 20px 0;
+    background: #02523a;
+    background: -webkit-linear-gradient(left, #b95a00 0%, #b95a00 100%);
+}
+
+.barra p {
+    margin: 0;
+    color: white;
+}
+
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30%;
+    margin-bottom: 40%;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: url(http://cdn.onlinewebfonts.com/svg/img_529425.png);
+    width: 100;
+}
+
+.icono2 {
+    background-image: url(https://www.citywellnesspharmacy.com/image/citywellness/image/data/xCPHRgxw1615193880.png);
+}
+
+.icono3 {
+    background-image: url(https://icons-for-free.com/iconfiles/png/512/graph+heart+medical+medicine+icon-1320167818975776532.png);
+}
+
+#lista-placas .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito {
+    margin: 10px 0;
+}
+.card {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #1d2124;
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: white;
+}
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+.footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #1d2124;
+}
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+    
